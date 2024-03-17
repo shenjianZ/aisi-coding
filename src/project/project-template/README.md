@@ -1,7 +1,7 @@
 ---
 title: Springboot+Vue模板项目
 icon: web
-date: 2024-3-16
+date: 2024-03-16
 tag: 
   -  Springboot
 star: true

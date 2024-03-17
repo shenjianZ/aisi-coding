@@ -4,7 +4,7 @@ icon: backend
 category: project
 tag:
   - backend
-date: 2024-3-16
+date: 2024-03-16
 ---
 
 在`vite.config.js` ,导入`Element-UI-plus`

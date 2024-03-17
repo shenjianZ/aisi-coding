@@ -1,6 +1,6 @@
 ---
 title: nginx安装与配置
-date: 2024-3-16
+date: 2024-03-16
 category: CacheDatabase
 tag:
   - redis
@@ -128,13 +128,13 @@ redis停止,此时需要输入密码
 redis-cli  -a 111 shutdown
 ```
 
-![redis的关闭](C:\Users\15202\Desktop\Redis-PIC\xstMCp111608.png)
+[//]: # (![redis的关闭]&#40;C:\Users\15202\Desktop\Redis-PIC\xstMCp111608.png&#41;)
 
 在 redis-cli 中关闭
 
 使用 `shutdown`
 
-![redis的关闭](C:\Users\15202\Desktop\Redis-PIC\VCc89E111040.png)
+[//]: # (![redis的关闭]&#40;C:\Users\15202\Desktop\Redis-PIC\VCc89E111040.png&#41;)
 
 **重命名redis的一些命令**，练习阶段不建议
 
@@ -145,7 +145,7 @@ rename-commond flushall "flall"
 rename-commond flushdb  "fldb"
 ```
 
-![redis的命令重命名](C:\Users\15202\Desktop\Redis-PIC\E0DxDq113031.png)
+[//]: # (![redis的命令重命名]&#40;C:\Users\15202\Desktop\Redis-PIC\E0DxDq113031.png&#41;)
 
 ## 1.3 redis的三种客户端
 
@@ -169,7 +169,7 @@ redis-cli -h <hostname> -p <port> -a <password>
 
 **[客户端下载](https://github.com/RedisInsight/RedisDesktopManager/releases/download/0.8.8/redis-desktop-manager-0.8.8.384.exe)** ，[百度网盘下载](https://pan.baidu.com/s/1ibS0y8TYKOOWDXd0Acx0kA?pwd=nski)
 
-![redis客户端](C:\Users\15202\Desktop\Redis-PIC\P9s6KX132258.png)
+[//]: # (![redis客户端]&#40;C:\Users\15202\Desktop\Redis-PIC\P9s6KX132258.png&#41;)
 
 3.第三方代码客户端
 
@@ -181,20 +181,20 @@ Java、Python、Php等代码客户端，封装了对redis操作的API
 
 这一部分通常用于包含其他配置文件。可以在 `redis.conf` 文件中使用 `INCLUDES` 指令引入其他配置文件，使配置文件更模块化和易于管理。
 
-![UPFvpC133834](C:\Users\15202\Desktop\Redis-PIC\UPFvpC133834.png)
+[//]: # (![UPFvpC133834]&#40;C:\Users\15202\Desktop\Redis-PIC\UPFvpC133834.png&#41;)
 
 ```shell
 echo "port 5000" >> /home/poop/redis-text.conf
 ```
 
-![v5y53v134038](C:\Users\15202\Desktop\Redis-PIC\v5y53v134038.png)
+[//]: # (![v5y53v134038]&#40;C:\Users\15202\Desktop\Redis-PIC\v5y53v134038.png&#41;)
 
 ```shell
 redis-cli  -a 111 shutdown
 redis-server /opt/software/redis/redis.conf
 ```
 
-![EkGCN1134734](C:\Users\15202\Desktop\Redis-PIC\EkGCN1134734.png)
+[//]: # (![EkGCN1134734]&#40;C:\Users\15202\Desktop\Redis-PIC\EkGCN1134734.png&#41;)
 
 注意，测试完成将redis.conf的最后一行进行注释
 
@@ -297,9 +297,9 @@ Redis 在启动时会将自身的进程 ID 写入该 PID 文件。
 
 ***可以看到  poop用户由于权限不足，无法写入进程pid到 redis_6379.pid中***
 
-![grvfJI162054](C:\Users\15202\Desktop\Redis-PIC\grvfJI162054.png)
+[//]: # (![grvfJI162054]&#40;C:\Users\15202\Desktop\Redis-PIC\grvfJI162054.png&#41;)
 
-![GvAT3p161933](C:\Users\15202\Desktop\Redis-PIC\GvAT3p161933.png)
+[//]: # (![GvAT3p161933]&#40;C:\Users\15202\Desktop\Redis-PIC\GvAT3p161933.png&#41;)
 
 > loglevel notice
 
@@ -350,7 +350,7 @@ Redis 在启动时会将自身的进程 ID 写入该 PID 文件。
 
 在这个部分，你可以配置 Redis 的内存管理相关的设置，比如最大使用内存、内存碎片整理等。
 
-> maxmemory <bytes>
+> maxmemory `<bytes>`
 
 ***用于设置 Redis 服务器的内存使用限制指定的字节数***
 

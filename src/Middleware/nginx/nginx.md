@@ -1,6 +1,6 @@
 ---
 title: nginx安装与配置
-date: 2024-3-16
+date: 2024-03-16
 category: webServer
 tag:
   - nginx

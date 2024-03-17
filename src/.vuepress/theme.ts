@@ -1,7 +1,7 @@
-import {blog, hopeTheme} from "vuepress-theme-hope";
+import { hopeTheme} from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import { zhSidebarConfig } from "./sidebar";
-import {shikiPlugin} from "@vuepress/plugin-shiki";
+// import {shikiPlugin} from "@vuepress/plugin-shiki";
 export default hopeTheme({
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
 
@@ -112,13 +112,13 @@ export default hopeTheme({
 
     prismjs: false,
     // 你应该自行生成自己的评论服务
-    comment: {
-      provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
-      category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
-    },
+    // comment: {
+    //   provider: "Giscus",
+    //   repo: "vuepress-theme-hope/giscus-discussions",
+    //   repoId: "R_kgDOG_Pt2A",
+    //   category: "Announcements",
+    //   categoryId: "DIC_kwDOG_Pt2M4COD69",
+    // },
 
     components: {
       components: ["Badge", "VPCard"],

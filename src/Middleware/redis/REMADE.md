@@ -1,7 +1,7 @@
 ---
 title: Redis教程
 icon: redis
-date: 2024-3--16
+date: 2024-03-16
 tag:
  - redis
 star: true

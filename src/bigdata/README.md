@@ -8,10 +8,7 @@ article: false
 
 ### Hadoop
 
-- [baz](hadoop/baz.md)
-- ...
+
 
 ### Hive
 
-- [ray](hive/ray.md)
-- ...
