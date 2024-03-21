@@ -6,6 +6,7 @@ export default navbar([
         text: "大数据指南",
         icon: "bigdata",
         prefix: "/bigdata/",
+        activeMatch: "^/bigdata/$",
         children: [
             {
                 text: "Hadoop",
@@ -19,23 +20,25 @@ export default navbar([
             },
             {
                 text: "ZooKeeper",
+                icon: "zookeeper",
                 link: "zookeeper/",
             }
         ],
     },
     {
         text: "Java后端",
-        icon: "java",
+        icon: "huoduankaifa",
         prefix: "/java/",
+        activeMatch: "^/java/$",
         link: "https://theme-hope.vuejs.press/zh/",
 
         children: [
             {
                 text: "Java SE",
-                icon: "java",
                 children: [
                     {
                         text: "Java基础",
+                        icon: "javaBasic",
                         link: "basic/",
                     },
                     {
@@ -93,6 +96,7 @@ export default navbar([
         text: "前端开发",
         icon: "frontend",
         prefix: "/frontend/",
+        activeMatch: "^/frontend/$",
         children: [
             {
                 text: "Html+Css",
@@ -125,8 +129,14 @@ export default navbar([
         text: "必备技术",
         icon: "code",
         prefix: "Middleware",
-        link: "",
+        activeMatch: "^/Middleware/$",
+        link: "/Middleware/",
         children: [
+            {
+                text: "Linux",
+                icon: "linux",
+                link: "linux/",
+            },
             {
                 text: "Redis",
                 icon: "redis",
@@ -158,6 +168,7 @@ export default navbar([
         text: "项目实战",
         icon: "project.ts",
         prefix: "/project/",
+        activeMatch: "^/project/$",
         link: "project/README.md",
         children:[
             {
@@ -170,6 +181,8 @@ export default navbar([
     {
         text: "其他",
         icon: "other",
+        prefix: "/other/",
+        activeMatch: "^/other/$",
         children: [
             {
                 text: "面试",
@@ -184,7 +197,7 @@ export default navbar([
             {
                 text: "go",
                 icon: "go",
-                link: "other/go/",
+                link: "go/",
             }
         ]
     }

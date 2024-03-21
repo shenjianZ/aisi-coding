@@ -1,5 +1,5 @@
 ---
-title: nginx安装与配置
+title: Redis安装与配置
 date: 2024-03-16
 category: CacheDatabase
 tag:

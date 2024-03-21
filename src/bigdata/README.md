@@ -1,6 +1,6 @@
 ---
 title: 指南
-icon: lightbulb
+icon: "assets/icon/bigdata"
 article: false
 ---
 

@@ -8,16 +8,20 @@ export default hopeTheme({
   author: {
     name: "shenjianZ",
     url: "https://shenjianl.cn",
+    email: "15202078626@163.com",
   },
 
   // iconAssets: "fontawesome-with-brands",
 
+  // iconAssets: "https://at.alicdn.com/t/c/font_4467301_ub43ycterd.css",
+  logo: "/logo.svg",
   iconAssets: "iconfont",
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
   repo: "shenjianZ",
 
   docsDir: "src",
+  docsBranch: "",
+  docsRepo: "shenjianZ/vuepress-theme-hope",
  // 全屏
   fullscreen: true,
   // 导航栏
@@ -106,11 +110,14 @@ export default hopeTheme({
   },
   // 在这里配置主题提供的插件
   plugins: {
+    readingTime:{
+      wordPerMinute: 150,
+    },
     // 博客首页配置
     blog: true,
     //
 
-    prismjs: false,
+    // prismjs: false,
     // 你应该自行生成自己的评论服务
     // comment: {
     //   provider: "Giscus",
