@@ -1,21 +1,30 @@
-on: push
+on:
+  push:
+    branches:
+      - master
 
-permissions: 
+permissions:
   contents: write
-  
-jobs: 
+
+jobs:
   npm-build:
     runs-on: ubuntu-latest
     steps:
-    - name: 读取仓库内容
-      uses: actions/checkout@v4
-    - name: 安装依赖打包项目
-      run: |
-        npm install
-        npm run docs:build
-        find / -type d -name "dist" -print 2>/dev/null
-    - name: 部署
-      uses: JamesIves/github-pages-deploy-action@v4
-      with:
-        branch: gh-pages
-        folder: src/.vuepres/dist/
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install Dependencies and Build
+        run: |
+          npm install
+          npm run docs:build
+
+      - name: Find Dist Folder
+        run: |
+          dist_path=$(find src/.vuepress/dist -type d)
+          echo "Found dist folder at: $dist_path"
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: src/.vuepress/dist
