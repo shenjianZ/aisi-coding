@@ -13,6 +13,7 @@ jobs:
       run: |
         npm install
         npm run docs:build
+        find / -type d -name "dist" -print 2>/dev/null
     - name: 部署
       uses: JamesIves/github-pages-deploy-action@v4
       with:
