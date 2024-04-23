@@ -3,7 +3,7 @@ import theme from "./theme.js";
 
 
 export default defineUserConfig({
-  base: "/",
+  base: "/aisi-coding/",
 
   lang: "zh-CN",
   title: "爱思文档",
