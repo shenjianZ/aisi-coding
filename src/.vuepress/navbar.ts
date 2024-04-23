@@ -22,6 +22,11 @@ export default navbar([
                 text: "ZooKeeper",
                 icon: "zookeeper",
                 link: "zookeeper/",
+            },
+            {
+                text: "Flume",
+                icon: "flume",
+                link: "flume/",
             }
         ],
     },

@@ -5,5 +5,9 @@ export const zhSidebarConfig = sidebar({
         "/",
         "frontend",
         "backend",
-    ])
+    ]),
+    "/other/book": "structure",
+    "/bigdata/flume/": "structure",
+    "/Middleware/git": "structure",
+    "/front/vue": "structure",
 })
