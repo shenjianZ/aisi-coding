@@ -1,3 +1,14 @@
-      export const typesMap = {"article":{"/":{"path":"/article/","indexes":[8,9,17,10,11,13,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,7,1,2,3,4,12,5,6,14,16,15,0]}},"star":{"/":{"path":"/star/","indexes":[8,9,17,1,2,3,10,11,4,13]}},"timeline":{"/":{"path":"/timeline/","indexes":[18,19,8,9,17,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,7,1,2,3,10,11,4,12,5,6,13,14,16,15,0]}}};
+      export const typesMap = {"article":{"/":{"path":"/article/","indexes":[22,24,32,23,25,26,6,16,5,1,2,3,4,7,8,9,10,14,15,20,31,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,21,11,12,13,17,18,19,27,28,30,29,0]}},"star":{"/":{"path":"/star/","indexes":[6,22,24,32,16,11,12,23,13,25,26,19,5]}},"timeline":{"/":{"path":"/timeline/","indexes":[1,2,3,4,6,7,8,9,10,14,15,20,31,33,34,22,24,32,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,16,54,21,11,12,23,13,17,18,25,26,19,27,28,30,29,0]}}};
       
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept();
+  if (__VUE_HMR_RUNTIME__.updateBlogType)
+    __VUE_HMR_RUNTIME__.updateBlogType(typesMap);
+}
+
+if (import.meta.hot)
+  import.meta.hot.accept(({ typesMap }) => {
+    __VUE_HMR_RUNTIME__.updateBlogType(typesMap);
+  });
+
       
