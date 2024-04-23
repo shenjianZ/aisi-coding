@@ -3,7 +3,7 @@ import navbar from "./navbar.js";
 import { zhSidebarConfig } from "./sidebar";
 // import {shikiPlugin} from "@vuepress/plugin-shiki";
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "https://blog.shenjianl.cn",
 
   author: {
     name: "shenjianZ",
@@ -21,7 +21,7 @@ export default hopeTheme({
 
   docsDir: "src",
   docsBranch: "",
-  docsRepo: "shenjianZ/vuepress-theme-hope",
+  docsRepo: "shenjianZ/aisi-coding",
  // 全屏
   fullscreen: true,
   // 导航栏
