@@ -17,7 +17,6 @@ home: true
 layout: BlogHome
 icon: home
 title: 主页
-base: aisi-coding
 heroImage: /logo.svg
 heroText: shenjianZ
 tagline: 美丽的事物，总是很棘手~
