@@ -1,12 +1,12 @@
 import { defineClientConfig } from "vuepress/client";
-import { hasGlobalComponent } from "D:/JetBrainsToolProject/InteliJIDEA/aisi-blog/node_modules/@vuepress/helper/lib/client/index.js";
+import { hasGlobalComponent } from "D:/GitHubRepository/aisi-coding/node_modules/@vuepress/helper/lib/client/index.js";
 
-import { useStyleTag } from "D:/JetBrainsToolProject/InteliJIDEA/aisi-blog/node_modules/@vueuse/core/index.mjs";
-import FontIcon from "D:/JetBrainsToolProject/InteliJIDEA/aisi-blog/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
-import Badge from "D:/JetBrainsToolProject/InteliJIDEA/aisi-blog/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
-import VPCard from "D:/JetBrainsToolProject/InteliJIDEA/aisi-blog/node_modules/vuepress-plugin-components/lib/client/components/VPCard.js";
+import { useStyleTag } from "D:/GitHubRepository/aisi-coding/node_modules/@vueuse/core/index.mjs";
+import FontIcon from "D:/GitHubRepository/aisi-coding/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
+import Badge from "D:/GitHubRepository/aisi-coding/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
+import VPCard from "D:/GitHubRepository/aisi-coding/node_modules/vuepress-plugin-components/lib/client/components/VPCard.js";
 
-import "D:/JetBrainsToolProject/InteliJIDEA/aisi-blog/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
+import "D:/GitHubRepository/aisi-coding/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
 
 export default defineClientConfig({
   enhance: ({ app }) => {

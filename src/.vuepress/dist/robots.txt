@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://vuepress-theme-hope-docs-demo.netlify.app/aisi-coding/sitemap.xml
+Sitemap: https://blog.shenjianl.cn/aisi-coding/sitemap.xml

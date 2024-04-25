@@ -1,16 +1,16 @@
 import { defineClientConfig } from "vuepress/client";
 
 
-import { HopeIcon, Layout, NotFound, useScrollPromise, injectDarkmode, setupDarkmode, setupSidebarItems } from "D:/JetBrainsToolProject/InteliJIDEA/aisi-blog/node_modules/vuepress-theme-hope/lib/bundle/export.js";
+import { HopeIcon, Layout, NotFound, useScrollPromise, injectDarkmode, setupDarkmode, setupSidebarItems } from "D:/GitHubRepository/aisi-coding/node_modules/vuepress-theme-hope/lib/bundle/export.js";
 
-import { defineCatalogInfoGetter } from "D:/JetBrainsToolProject/InteliJIDEA/aisi-blog/node_modules/@vuepress/plugin-catalog/lib/client/index.js"
+import { defineCatalogInfoGetter } from "D:/GitHubRepository/aisi-coding/node_modules/@vuepress/plugin-catalog/lib/client/index.js"
 import { h } from "vue"
-import { BlogCategory, BlogHome, BlogType, BloggerInfo, Timeline, setupBlog } from "D:/JetBrainsToolProject/InteliJIDEA/aisi-blog/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/export.js";
-import "D:/JetBrainsToolProject/InteliJIDEA/aisi-blog/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/styles/all.scss";
-import { GlobalEncrypt, LocalEncrypt } from "D:/JetBrainsToolProject/InteliJIDEA/aisi-blog/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/export.js";
-import "D:/JetBrainsToolProject/InteliJIDEA/aisi-blog/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/styles/all.scss"
+import { BlogCategory, BlogHome, BlogType, BloggerInfo, Timeline, setupBlog } from "D:/GitHubRepository/aisi-coding/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/export.js";
+import "D:/GitHubRepository/aisi-coding/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/styles/all.scss";
+import { GlobalEncrypt, LocalEncrypt } from "D:/GitHubRepository/aisi-coding/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/export.js";
+import "D:/GitHubRepository/aisi-coding/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/styles/all.scss"
 
-import "D:/JetBrainsToolProject/InteliJIDEA/aisi-blog/node_modules/vuepress-theme-hope/lib/bundle/styles/all.scss";
+import "D:/GitHubRepository/aisi-coding/node_modules/vuepress-theme-hope/lib/bundle/styles/all.scss";
 
 defineCatalogInfoGetter((meta) => {
   const title = meta.t;

@@ -10,4 +10,5 @@ export const zhSidebarConfig = sidebar({
     "/bigdata/flume/": "structure",
     "/Middleware/git": "structure",
     "/front/vue": "structure",
+    "java/JavaWeb": "structure",
 })

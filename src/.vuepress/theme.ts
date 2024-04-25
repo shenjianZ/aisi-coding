@@ -17,7 +17,7 @@ export default hopeTheme({
   logo: "/logo.svg",
   iconAssets: "iconfont",
 
-  repo: "shenjianZ",
+  repo: "shenjianZ/aisi-coding",
 
   docsDir: "src",
   docsBranch: "",
