@@ -63,6 +63,7 @@ export default hopeTheme({
 
       copyright: "© 2024-至今 shenjianZ",
 
+
       blog: {
         description: "大数据工程师，JAVA工程师，前端爱好者",
         intro: "/intro.html",
@@ -110,6 +111,38 @@ export default hopeTheme({
   },
   // 在这里配置主题提供的插件
   plugins: {
+    comment:{
+      provider: "Giscus",
+      repo: "shenjianz/aisi-comment",
+      repoId: "R_kgDOLzI2Bw",
+      category: "Announcements",
+      categoryId: "DIC_kwDOLzI2B84Ce8di",
+      // 评论框的颜色
+        // color: "#0176FF",
+      // 评论框的背景颜色
+      // backgroundColor: "#F6FBFF",
+      // 评论框的边框颜色
+      // borderColor: "#0176FF",
+      // 评论框的阴影颜色
+      // shadowColor: "#F6FBFF",
+      // 评论框的阴影大小
+      // shadowSize: 10,
+      // 评论框的阴影模糊大小
+      // shadowBlur: 10,
+      // 评论框的阴影水平偏移
+      // shadowOffsetX: 0,
+      // 评论框的阴影垂直偏移
+      // shadowOffsetY: 0,
+    },
+    copyright:{
+      global: true,
+      // 文章版权信息
+      author: "shenjianZ",
+      license: "MIT",
+      triggerLength: 300,
+      // disableCopy: true,
+    },
+
     readingTime:{
       wordPerMinute: 150,
     },
