@@ -1,4 +1,4 @@
-import { defineUserConfig } from "vuepress";
+import { defineUserConfig } from 'vuepress';
 import theme from "./theme.js";
 
 
@@ -8,8 +8,9 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "爱思文档",
   description: "美丽的事物，总是很棘手",
-  // plugins: [
-  // ],
+  plugins: [
+  ],
+
   theme,
   markdown:{
     headers:{

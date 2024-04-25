@@ -1,7 +1,7 @@
 import { defineClientConfig } from "vuepress/client";
 import { hasGlobalComponent } from "D:/GitHubRepository/aisi-coding/node_modules/@vuepress/helper/lib/client/index.js";
 
-import { useStyleTag } from "D:/GitHubRepository/aisi-coding/node_modules/@vueuse/core/index.mjs";
+import { useScriptTag } from "D:/GitHubRepository/aisi-coding/node_modules/@vueuse/core/index.mjs";
 import FontIcon from "D:/GitHubRepository/aisi-coding/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
 import Badge from "D:/GitHubRepository/aisi-coding/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
 import VPCard from "D:/GitHubRepository/aisi-coding/node_modules/vuepress-plugin-components/lib/client/components/VPCard.js";
@@ -16,9 +16,24 @@ export default defineClientConfig({
     
   },
   setup: () => {
-      useStyleTag(`\
-  @import url("https://at.alicdn.com/t/c/font_2410206_5vb9zlyghj.css");
-  `);
+    useScriptTag(
+  `https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/js/brands.min.js`,
+  () => {},
+  { attrs: { "data-auto-replace-svg": "nest" } }
+);
+
+    useScriptTag(
+  `https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/js/solid.min.js`,
+  () => {},
+  { attrs: { "data-auto-replace-svg": "nest" } }
+);
+
+    useScriptTag(
+  `https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/js/fontawesome.min.js`,
+  () => {},
+  { attrs: { "data-auto-replace-svg": "nest" } }
+);
+
   },
   rootComponents: [
 

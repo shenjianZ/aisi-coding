@@ -9,4 +9,3 @@ category:
   - HTML
 ---
 
-<Catalog />

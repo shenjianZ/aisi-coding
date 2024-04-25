@@ -3,11 +3,12 @@ import navbar from "./navbar.js";
 import { zhSidebarConfig } from "./sidebar";
 // import {shikiPlugin} from "@vuepress/plugin-shiki";
 export default hopeTheme({
+  navTitle: undefined,
   hostname: "https://blog.shenjianl.cn",
 
   author: {
     name: "shenjianZ",
-    url: "https://shenjianl.cn",
+    url: "https://blog.shenjianl.cn",
     email: "15202078626@163.com",
   },
 
@@ -15,7 +16,7 @@ export default hopeTheme({
 
   // iconAssets: "https://at.alicdn.com/t/c/font_4467301_ub43ycterd.css",
   logo: "/logo.svg",
-  iconAssets: "iconfont",
+  iconAssets: "fontawesome-with-brands",
 
   repo: "shenjianZ/aisi-coding",
 
@@ -66,6 +67,7 @@ export default hopeTheme({
 
       blog: {
         description: "大数据工程师，JAVA工程师，前端爱好者",
+        timeline: "昨日不在",
         intro: "/intro.html",
         articlePerPage : 3,
         medias: {
@@ -111,6 +113,7 @@ export default hopeTheme({
   },
   // 在这里配置主题提供的插件
   plugins: {
+    searchPro: true,
     comment:{
       provider: "Giscus",
       repo: "shenjianz/aisi-comment",
@@ -151,14 +154,7 @@ export default hopeTheme({
     //
 
     // prismjs: false,
-    // 你应该自行生成自己的评论服务
-    // comment: {
-    //   provider: "Giscus",
-    //   repo: "vuepress-theme-hope/giscus-discussions",
-    //   repoId: "R_kgDOG_Pt2A",
-    //   category: "Announcements",
-    //   categoryId: "DIC_kwDOG_Pt2M4COD69",
-    // },
+
 
     components: {
       components: ["Badge", "VPCard"],
@@ -396,5 +392,5 @@ export default hopeTheme({
     //     ],
     //   },
     // },
-  },
+  }
 });
