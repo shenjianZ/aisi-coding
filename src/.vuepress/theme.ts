@@ -3,6 +3,10 @@ import navbar from "./navbar.js";
 import { zhSidebarConfig } from "./sidebar";
 // import {shikiPlugin} from "@vuepress/plugin-shiki";
 export default hopeTheme({
+  darkmode: undefined,
+  rtl: false,
+  blog: undefined,
+  iconPrefix: "",
   navTitle: undefined,
   hostname: "https://blog.shenjianl.cn",
 
@@ -11,17 +15,17 @@ export default hopeTheme({
     url: "https://blog.shenjianl.cn",
     email: "15202078626@163.com",
   },
-
+  pageInfo: ["Author","Date","Original","Category","Tag","Word","ReadingTime"],
   // iconAssets: "fontawesome-with-brands",
 
   // iconAssets: "https://at.alicdn.com/t/c/font_4467301_ub43ycterd.css",
   logo: "/logo.svg",
-  iconAssets: "fontawesome-with-brands",
+  iconAssets: "fontawesome",
 
   repo: "shenjianZ/aisi-coding",
 
   docsDir: "src",
-  docsBranch: "",
+  docsBranch: "master",
   docsRepo: "shenjianZ/aisi-coding",
  // 全屏
   fullscreen: true,

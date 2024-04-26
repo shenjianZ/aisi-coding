@@ -1,4 +1,4 @@
-import {navbar} from "vuepress-theme-hope";
+import {git, navbar} from "vuepress-theme-hope";
 
 export default navbar([
     "/",
@@ -6,7 +6,7 @@ export default navbar([
         text: "大数据指南",
         icon: "bigdata",
         prefix: "/bigdata/",
-        activeMatch: "^/bigdata/$",
+        activeMatch: "^/path/(?:(?!hadoop/|hive/|zookeeper/|flume/).*)?$",
         children: [
             {
                 text: "Hadoop",

@@ -1,11 +1,12 @@
 ---
 title: git学习
-icon: signs-post
+icon: git
 star: true
 sticky: 10
 dir:
   order: 1
 category: git学习
+#isOriginal: true
 ---
 
 

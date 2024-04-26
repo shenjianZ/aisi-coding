@@ -1,7 +1,7 @@
 ---
-title: 主要功能与配置演示
+title: Java后端
 index: false
-icon: laptop-code
+icon: java
 date: 2024-03-15
 category:
   - 使用指南
