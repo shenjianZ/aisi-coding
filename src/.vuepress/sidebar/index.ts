@@ -36,8 +36,7 @@ export const zhSidebarConfig = sidebar({
         "/frontend/javascript": "structure",
         "/frontend/nodejs": "structure",
         "/frontend/react": "structure",
-        "/frontend/typescript": "s" +
-            "tructure",
+        "/frontend/typescript": "structure",
         "/frontend/vue": "structure",
 
 

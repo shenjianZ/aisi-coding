@@ -20,7 +20,7 @@ import {
 import {
   setupDevtoolsPlugin
 } from "./chunk-UKCZNIRO.js";
-import "./chunk-F3FYYIAV.js";
+import "./chunk-TYRVL62N.js";
 
 // node_modules/vue-router/dist/vue-router.mjs
 var isBrowser = typeof document !== "undefined";

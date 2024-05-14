@@ -1,4 +1,4 @@
-import "./chunk-F3FYYIAV.js";
+import "./chunk-TYRVL62N.js";
 
 // node_modules/@vuepress/shared/dist/index.js
 var TAGS_ALLOWED = ["link", "meta", "script", "style", "noscript", "template"];
