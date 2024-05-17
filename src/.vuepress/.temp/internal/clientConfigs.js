@@ -13,6 +13,7 @@ import clientConfig11 from 'D:/GitHubRepository/aisi-coding/src/.vuepress/.temp/
 import clientConfig12 from 'D:/GitHubRepository/aisi-coding/node_modules/@vuepress/plugin-photo-swipe/lib/client/config.js'
 import clientConfig13 from 'D:/GitHubRepository/aisi-coding/node_modules/vuepress-plugin-search-pro/lib/client/config.js'
 import clientConfig14 from 'D:/GitHubRepository/aisi-coding/src/.vuepress/.temp/theme-hope/config.js'
+import clientConfig15 from 'D:/GitHubRepository/aisi-coding/node_modules/@vuepress/plugin-google-analytics/lib/client/config.js'
 
 export const clientConfigs = [
   clientConfig0,
@@ -30,4 +31,5 @@ export const clientConfigs = [
   clientConfig12,
   clientConfig13,
   clientConfig14,
+  clientConfig15,
 ]
