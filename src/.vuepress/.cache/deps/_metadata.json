@@ -1,58 +1,58 @@
 {
-  "hash": "52853359",
+  "hash": "e687e8f2",
   "configHash": "803fea38",
-  "lockfileHash": "72cb8cf1",
-  "browserHash": "b13b08eb",
+  "lockfileHash": "afbcb7e4",
+  "browserHash": "8dc496bc",
   "optimized": {
     "artplayer": {
       "src": "../../../../node_modules/artplayer/dist/artplayer.js",
       "file": "artplayer.js",
-      "fileHash": "ae9e8cbc",
+      "fileHash": "ec000f86",
       "needsInterop": true
     },
     "slimsearch": {
       "src": "../../../../node_modules/slimsearch/dist/index.mjs",
       "file": "slimsearch.js",
-      "fileHash": "f989a564",
+      "fileHash": "f480fc99",
       "needsInterop": false
     },
     "@vueuse/core": {
       "src": "../../../../node_modules/@vueuse/core/index.mjs",
       "file": "@vueuse_core.js",
-      "fileHash": "c24e2677",
+      "fileHash": "7f79ae6d",
       "needsInterop": false
     },
     "@vue/devtools-api": {
       "src": "../../../../node_modules/@vue/devtools-api/lib/esm/index.js",
       "file": "@vue_devtools-api.js",
-      "fileHash": "a31af45e",
+      "fileHash": "c533eba9",
       "needsInterop": false
     },
     "@vuepress/shared": {
       "src": "../../../../node_modules/@vuepress/shared/dist/index.js",
       "file": "@vuepress_shared.js",
-      "fileHash": "3175e2b7",
+      "fileHash": "0c0da61e",
       "needsInterop": false
     },
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "2a9d235e",
+      "fileHash": "ac8bbe84",
       "needsInterop": false
     },
     "vue-router": {
       "src": "../../../../node_modules/vue-router/dist/vue-router.esm-bundler.js",
       "file": "vue-router.js",
-      "fileHash": "497dd720",
+      "fileHash": "96160094",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-ET3YYJQ3": {
-      "file": "chunk-ET3YYJQ3.js"
-    },
     "chunk-UKCZNIRO": {
       "file": "chunk-UKCZNIRO.js"
+    },
+    "chunk-RY5ODQAQ": {
+      "file": "chunk-RY5ODQAQ.js"
     },
     "chunk-TYRVL62N": {
       "file": "chunk-TYRVL62N.js"
