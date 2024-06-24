@@ -1,0 +1,16 @@
+import comp from "D:/GitHubRepository/aisi-coding/src/.vuepress/.temp/pages/project/retailstore/1.html.vue"
+const data = JSON.parse("{\"path\":\"/project/retailstore/1.html\",\"title\":\"RetailStore\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"RetailStore\",\"icon\":\"Qt\",\"category\":\"project\",\"tag\":[\"Qt\"],\"date\":\"2024-03-16T00:00:00.000Z\",\"description\":\"1. 介绍 这是一个基于Qt框架的C++项目，实现了基于Qt的桌面端，使用Qt+MySQL实现的一个小项目。 技术栈: 使用到的技术 (technology） Qt：（Qt Core、Qt QUI、Qt Widgets 、Qt Sql） MySQL 8.0.27 项目环境： Clion 2024.1.2 Qt 6.7.1 CMake 3.28.1 项目...\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://blog.shenjianl.cn/aisi-coding/project/retailstore/1.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"爱思文档\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"RetailStore\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"1. 介绍 这是一个基于Qt框架的C++项目，实现了基于Qt的桌面端，使用Qt+MySQL实现的一个小项目。 技术栈: 使用到的技术 (technology） Qt：（Qt Core、Qt QUI、Qt Widgets 、Qt Sql） MySQL 8.0.27 项目环境： Clion 2024.1.2 Qt 6.7.1 CMake 3.28.1 项目...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:author\",\"content\":\"shenjianZ\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"Qt\"}],[\"meta\",{\"property\":\"article:published_time\",\"content\":\"2024-03-16T00:00:00.000Z\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"RetailStore\\\",\\\"image\\\":[\\\"\\\"],\\\"datePublished\\\":\\\"2024-03-16T00:00:00.000Z\\\",\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"shenjianZ\\\",\\\"url\\\":\\\"https://blog.shenjianl.cn\\\",\\\"email\\\":\\\"15202078626@163.com\\\"}]}\"]]},\"headers\":[{\"level\":3,\"title\":\"1. 介绍\",\"slug\":\"_1-介绍\",\"link\":\"#_1-介绍\",\"children\":[]},{\"level\":2,\"title\":\"项目介绍 ( Feature)\",\"slug\":\"项目介绍-feature\",\"link\":\"#项目介绍-feature\",\"children\":[]},{\"level\":2,\"title\":\"2.项目展示 （show the project）\",\"slug\":\"_2-项目展示-show-the-project\",\"link\":\"#_2-项目展示-show-the-project\",\"children\":[]},{\"level\":2,\"title\":\"3.项目构建 （build the project）\",\"slug\":\"_3-项目构建-build-the-project\",\"link\":\"#_3-项目构建-build-the-project\",\"children\":[]}],\"git\":{\"createdTime\":null,\"updatedTime\":null,\"contributors\":[]},\"readingTime\":{\"minutes\":3.31,\"words\":497},\"filePathRelative\":\"project/retailstore/1.md\",\"localizedDate\":\"2024年3月16日\",\"excerpt\":\"<h3>1. 介绍</h3>\\n<ul>\\n<li>这是一个基于Qt框架的C++项目，实现了基于Qt的桌面端，使用Qt+MySQL实现的一个小项目。</li>\\n</ul>\\n<p><strong>技术栈</strong>:</p>\\n<blockquote>\\n<p>使用到的技术 (technology）</p>\\n<ul>\\n<li>Qt：（Qt Core、Qt QUI、Qt Widgets 、Qt Sql）</li>\\n<li>MySQL 8.0.27</li>\\n</ul>\\n</blockquote>\\n<p><strong>项目环境</strong>：</p>\\n<ul>\\n<li><code>Clion 2024.1.2</code></li>\\n<li><code>Qt 6.7.1</code></li>\\n<li><code>CMake 3.28.1</code></li>\\n</ul>\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

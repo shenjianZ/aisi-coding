@@ -1,15 +1,15 @@
 import {sidebar, arraySidebar} from "vuepress-theme-hope";
 
 export const zhSidebarConfig = sidebar({
-
-        "/": [
-            {
-                text: "课程",
-                children: [
-                    "other/book/",
-                ],
-            }
-        ],
+        //
+        // "/": [
+        //     {
+        //         text: "课程",
+        //         children: [
+        //             "other/book/",
+        //         ],
+        //     }
+        // ],
 
         // bigdata-------------------------------------------------------------------------
         "/bigdata/flume/": "structure",
@@ -57,6 +57,7 @@ export const zhSidebarConfig = sidebar({
 
 
         // project------------------------------------------------------------------------
-        "/other/project-template/": "structure",
+        "/project/project-template/": "structure",
+        "/project/retailstore/": "structure",
     }
 )

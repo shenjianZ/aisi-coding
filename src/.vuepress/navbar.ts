@@ -171,15 +171,20 @@ export default navbar([
     },
     {
         text: "项目实战",
-        icon: "project.ts",
-        prefix: "/project/",
+        icon: "project",
+        prefix: "project",
         activeMatch: "^/project/$",
-        link: "project/README.md",
+        link: "/project/",
         children:[
             {
                 text: "baseTemplate",
                 icon: "baseTemplate",
                 link: "project-template/",
+            },
+            {
+                text: "retailstore",
+                icon: "retailstore",
+                link: "retailstore/",
             }
         ]
     },
